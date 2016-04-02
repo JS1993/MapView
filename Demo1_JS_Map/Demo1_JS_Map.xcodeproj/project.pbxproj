@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFC704641C97FA45006669BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC704631C97FA45006669BB /* main.m */; };
+		CFC704671C97FA45006669BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC704661C97FA45006669BB /* AppDelegate.m */; };
+		CFC7046A1C97FA45006669BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC704691C97FA45006669BB /* ViewController.m */; };
+		CFC7046D1C97FA45006669BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC7046B1C97FA45006669BB /* Main.storyboard */; };
+		CFC7046F1C97FA45006669BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC7046E1C97FA45006669BB /* Assets.xcassets */; };
+		CFC704721C97FA45006669BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC704701C97FA45006669BB /* LaunchScreen.storyboard */; };
+		CFC7047D1C97FA45006669BB /* Demo1_JS_MapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC7047C1C97FA45006669BB /* Demo1_JS_MapTests.m */; };
+		CFC704881C97FA45006669BB /* Demo1_JS_MapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC704871C97FA45006669BB /* Demo1_JS_MapUITests.m */; };
+		CFC704961C97FAC1006669BB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC704951C97FAC1006669BB /* MapKit.framework */; };
+		CFC704991C980351006669BB /* JSMyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC704981C980351006669BB /* JSMyAnnotation.m */; };
+		CFC7049C1C981CA5006669BB /* JSMyAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC7049B1C981CA5006669BB /* JSMyAnnotationView.m */; };
+		CFC704A11C981E23006669BB /* JSZomb.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC7049E1C981E23006669BB /* JSZomb.m */; };
+		CFC704A21C981E23006669BB /* ZombA.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC704A01C981E23006669BB /* ZombA.m */; };
+		CFC704A41C981E62006669BB /* zomb_0.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC704A31C981E62006669BB /* zomb_0.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFC704791C97FA45006669BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC704571C97FA45006669BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC7045E1C97FA45006669BB;
+			remoteInfo = Demo1_JS_Map;
+		};
+		CFC704841C97FA45006669BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC704571C97FA45006669BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC7045E1C97FA45006669BB;
+			remoteInfo = Demo1_JS_Map;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFC7045F1C97FA45006669BB /* Demo1_JS_Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo1_JS_Map.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC704631C97FA45006669BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFC704651C97FA45006669BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFC704661C97FA45006669BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFC704681C97FA45006669BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFC704691C97FA45006669BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFC7046C1C97FA45006669BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFC7046E1C97FA45006669BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFC704711C97FA45006669BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFC704731C97FA45006669BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC704781C97FA45006669BB /* Demo1_JS_MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo1_JS_MapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC7047C1C97FA45006669BB /* Demo1_JS_MapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1_JS_MapTests.m; sourceTree = "<group>"; };
+		CFC7047E1C97FA45006669BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC704831C97FA45006669BB /* Demo1_JS_MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo1_JS_MapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC704871C97FA45006669BB /* Demo1_JS_MapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1_JS_MapUITests.m; sourceTree = "<group>"; };
+		CFC704891C97FA45006669BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC704951C97FAC1006669BB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CFC704971C980351006669BB /* JSMyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMyAnnotation.h; sourceTree = "<group>"; };
+		CFC704981C980351006669BB /* JSMyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMyAnnotation.m; sourceTree = "<group>"; };
+		CFC7049A1C981CA5006669BB /* JSMyAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSMyAnnotationView.h; sourceTree = "<group>"; };
+		CFC7049B1C981CA5006669BB /* JSMyAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSMyAnnotationView.m; sourceTree = "<group>"; };
+		CFC7049D1C981E23006669BB /* JSZomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSZomb.h; path = "../../../Day02/Demo3_植物大战僵尸/Demo3_植物大战僵尸/JSZomb.h"; sourceTree = "<group>"; };
+		CFC7049E1C981E23006669BB /* JSZomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSZomb.m; path = "../../../Day02/Demo3_植物大战僵尸/Demo3_植物大战僵尸/JSZomb.m"; sourceTree = "<group>"; };
+		CFC7049F1C981E23006669BB /* ZombA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZombA.h; path = "../../../Day02/Demo3_植物大战僵尸/Demo3_植物大战僵尸/ZombA.h"; sourceTree = "<group>"; };
+		CFC704A01C981E23006669BB /* ZombA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZombA.m; path = "../../../Day02/Demo3_植物大战僵尸/Demo3_植物大战僵尸/ZombA.m"; sourceTree = "<group>"; };
+		CFC704A31C981E62006669BB /* zomb_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zomb_0.png; path = "../../../Day02/Demo3_植物大战僵尸/Demo3_植物大战僵尸/植物大战僵尸素材/zomb_0.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFC7045C1C97FA45006669BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC704961C97FAC1006669BB /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC704751C97FA45006669BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC704801C97FA45006669BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFC704561C97FA45006669BB = {
+			isa = PBXGroup;
+			children = (
+				CFC704611C97FA45006669BB /* Demo1_JS_Map */,
+				CFC7047B1C97FA45006669BB /* Demo1_JS_MapTests */,
+				CFC704861C97FA45006669BB /* Demo1_JS_MapUITests */,
+				CFC704601C97FA45006669BB /* Products */,
+				CFC704951C97FAC1006669BB /* MapKit.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC704601C97FA45006669BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC7045F1C97FA45006669BB /* Demo1_JS_Map.app */,
+				CFC704781C97FA45006669BB /* Demo1_JS_MapTests.xctest */,
+				CFC704831C97FA45006669BB /* Demo1_JS_MapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC704611C97FA45006669BB /* Demo1_JS_Map */ = {
+			isa = PBXGroup;
+			children = (
+				CFC704A31C981E62006669BB /* zomb_0.png */,
+				CFC704651C97FA45006669BB /* AppDelegate.h */,
+				CFC704661C97FA45006669BB /* AppDelegate.m */,
+				CFC704681C97FA45006669BB /* ViewController.h */,
+				CFC704691C97FA45006669BB /* ViewController.m */,
+				CFC7046B1C97FA45006669BB /* Main.storyboard */,
+				CFC7046E1C97FA45006669BB /* Assets.xcassets */,
+				CFC704701C97FA45006669BB /* LaunchScreen.storyboard */,
+				CFC704731C97FA45006669BB /* Info.plist */,
+				CFC704621C97FA45006669BB /* Supporting Files */,
+				CFC704971C980351006669BB /* JSMyAnnotation.h */,
+				CFC704981C980351006669BB /* JSMyAnnotation.m */,
+				CFC7049A1C981CA5006669BB /* JSMyAnnotationView.h */,
+				CFC7049B1C981CA5006669BB /* JSMyAnnotationView.m */,
+				CFC7049D1C981E23006669BB /* JSZomb.h */,
+				CFC7049E1C981E23006669BB /* JSZomb.m */,
+				CFC7049F1C981E23006669BB /* ZombA.h */,
+				CFC704A01C981E23006669BB /* ZombA.m */,
+			);
+			path = Demo1_JS_Map;
+			sourceTree = "<group>";
+		};
+		CFC704621C97FA45006669BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFC704631C97FA45006669BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFC7047B1C97FA45006669BB /* Demo1_JS_MapTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC7047C1C97FA45006669BB /* Demo1_JS_MapTests.m */,
+				CFC7047E1C97FA45006669BB /* Info.plist */,
+			);
+			path = Demo1_JS_MapTests;
+			sourceTree = "<group>";
+		};
+		CFC704861C97FA45006669BB /* Demo1_JS_MapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC704871C97FA45006669BB /* Demo1_JS_MapUITests.m */,
+				CFC704891C97FA45006669BB /* Info.plist */,
+			);
+			path = Demo1_JS_MapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFC7045E1C97FA45006669BB /* Demo1_JS_Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC7048C1C97FA45006669BB /* Build configuration list for PBXNativeTarget "Demo1_JS_Map" */;
+			buildPhases = (
+				CFC7045B1C97FA45006669BB /* Sources */,
+				CFC7045C1C97FA45006669BB /* Frameworks */,
+				CFC7045D1C97FA45006669BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo1_JS_Map;
+			productName = Demo1_JS_Map;
+			productReference = CFC7045F1C97FA45006669BB /* Demo1_JS_Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFC704771C97FA45006669BB /* Demo1_JS_MapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC7048F1C97FA45006669BB /* Build configuration list for PBXNativeTarget "Demo1_JS_MapTests" */;
+			buildPhases = (
+				CFC704741C97FA45006669BB /* Sources */,
+				CFC704751C97FA45006669BB /* Frameworks */,
+				CFC704761C97FA45006669BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC7047A1C97FA45006669BB /* PBXTargetDependency */,
+			);
+			name = Demo1_JS_MapTests;
+			productName = Demo1_JS_MapTests;
+			productReference = CFC704781C97FA45006669BB /* Demo1_JS_MapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFC704821C97FA45006669BB /* Demo1_JS_MapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC704921C97FA45006669BB /* Build configuration list for PBXNativeTarget "Demo1_JS_MapUITests" */;
+			buildPhases = (
+				CFC7047F1C97FA45006669BB /* Sources */,
+				CFC704801C97FA45006669BB /* Frameworks */,
+				CFC704811C97FA45006669BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC704851C97FA45006669BB /* PBXTargetDependency */,
+			);
+			name = Demo1_JS_MapUITests;
+			productName = Demo1_JS_MapUITests;
+			productReference = CFC704831C97FA45006669BB /* Demo1_JS_MapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFC704571C97FA45006669BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CFC7045E1C97FA45006669BB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CFC704771C97FA45006669BB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CFC7045E1C97FA45006669BB;
+					};
+					CFC704821C97FA45006669BB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CFC7045E1C97FA45006669BB;
+					};
+				};
+			};
+			buildConfigurationList = CFC7045A1C97FA45006669BB /* Build configuration list for PBXProject "Demo1_JS_Map" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFC704561C97FA45006669BB;
+			productRefGroup = CFC704601C97FA45006669BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFC7045E1C97FA45006669BB /* Demo1_JS_Map */,
+				CFC704771C97FA45006669BB /* Demo1_JS_MapTests */,
+				CFC704821C97FA45006669BB /* Demo1_JS_MapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFC7045D1C97FA45006669BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC704A41C981E62006669BB /* zomb_0.png in Resources */,
+				CFC704721C97FA45006669BB /* LaunchScreen.storyboard in Resources */,
+				CFC7046F1C97FA45006669BB /* Assets.xcassets in Resources */,
+				CFC7046D1C97FA45006669BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC704761C97FA45006669BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC704811C97FA45006669BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFC7045B1C97FA45006669BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC7046A1C97FA45006669BB /* ViewController.m in Sources */,
+				CFC7049C1C981CA5006669BB /* JSMyAnnotationView.m in Sources */,
+				CFC704991C980351006669BB /* JSMyAnnotation.m in Sources */,
+				CFC704A21C981E23006669BB /* ZombA.m in Sources */,
+				CFC704671C97FA45006669BB /* AppDelegate.m in Sources */,
+				CFC704A11C981E23006669BB /* JSZomb.m in Sources */,
+				CFC704641C97FA45006669BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC704741C97FA45006669BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC7047D1C97FA45006669BB /* Demo1_JS_MapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC7047F1C97FA45006669BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC704881C97FA45006669BB /* Demo1_JS_MapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFC7047A1C97FA45006669BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC7045E1C97FA45006669BB /* Demo1_JS_Map */;
+			targetProxy = CFC704791C97FA45006669BB /* PBXContainerItemProxy */;
+		};
+		CFC704851C97FA45006669BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC7045E1C97FA45006669BB /* Demo1_JS_Map */;
+			targetProxy = CFC704841C97FA45006669BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFC7046B1C97FA45006669BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC7046C1C97FA45006669BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFC704701C97FA45006669BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC704711C97FA45006669BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFC7048A1C97FA45006669BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFC7048B1C97FA45006669BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFC7048D1C97FA45006669BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo1_JS_Map/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-JS-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFC7048E1C97FA45006669BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo1_JS_Map/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-JS-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFC704901C97FA45006669BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Demo1_JS_MapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-JS-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo1_JS_Map.app/Demo1_JS_Map";
+			};
+			name = Debug;
+		};
+		CFC704911C97FA45006669BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Demo1_JS_MapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-JS-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo1_JS_Map.app/Demo1_JS_Map";
+			};
+			name = Release;
+		};
+		CFC704931C97FA45006669BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Demo1_JS_MapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-JS-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo1_JS_Map;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CFC704941C97FA45006669BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Demo1_JS_MapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-JS-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo1_JS_Map;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFC7045A1C97FA45006669BB /* Build configuration list for PBXProject "Demo1_JS_Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC7048A1C97FA45006669BB /* Debug */,
+				CFC7048B1C97FA45006669BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC7048C1C97FA45006669BB /* Build configuration list for PBXNativeTarget "Demo1_JS_Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC7048D1C97FA45006669BB /* Debug */,
+				CFC7048E1C97FA45006669BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFC7048F1C97FA45006669BB /* Build configuration list for PBXNativeTarget "Demo1_JS_MapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC704901C97FA45006669BB /* Debug */,
+				CFC704911C97FA45006669BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFC704921C97FA45006669BB /* Build configuration list for PBXNativeTarget "Demo1_JS_MapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC704931C97FA45006669BB /* Debug */,
+				CFC704941C97FA45006669BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFC704571C97FA45006669BB /* Project object */;
+}
